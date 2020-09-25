@@ -1,0 +1,29 @@
+.app {
+    display: grid;
+    place-items: center;
+    background-color: #dadbd3;
+    background: linear-gradient(180deg, #128C7E 25vh, #dadbd3 20vh);
+    height: 100vh;
+}
+
+.app__body {
+    display: flex;
+    background-color: #ededed;
+    /* margin-top: -30px; */
+    height: 100vh;
+    width: 100vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+    overflow-y: auto;
+}
+
+.app__body ::-webkit-scrollbar {
+    width: 7px;
+}
+
+.app__body ::-webkit-scrollbar-track {
+    background: white;
+}
+
+.app__body ::-webkit-scrollbar-thumb {
+    background-color: rgb(190, 184, 184);
+}
